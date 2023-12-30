@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    margin: 5px 100px;
+    /* background: lightblue; */
+
+}
+
+.left_part_data{
+    width: 50%;
+    background-color: #f5f5f5;
+    padding: 20px;
+    display: flex;
+    gap:50px;
+    flex-direction: column;
+    height: 100vh;
+    overflow-y: scroll;
+    
+}
+
+.left-part_left{
+    width: 70px;
+    
+ 
+}
+img{
+    width: 100%;
+}
+.left_part_right h1{
+    color: blue;
+    border-bottom: 1px solid blue;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+.left_part_right p{
+    margin-bottom: 3px;
+}
+
+.data{
+    display: flex;
+    gap: 50px;
+}
+
+ul{
+    display: inline;
+}
+
+.right_part{
+    padding: 20px;
+    width: 50%;
+    height: 100vh;
+    overflow-y: scroll;
+  
+}
+
+.data{
+    cursor: pointer;
+}
+
+.right_part h1:hover{
+  border-bottom: 1px solid blue;
+
+}
+
+.right_part h1{
+    margin-bottom: 20px;
+    display: inline;
+    cursor: pointer;
+}
+.right_part p{
+    margin-bottom: 20px;
+}
+.right_part .btn_row{
+    margin-bottom: 10px;
+}
+.right_part .btn_row{
+    margin-bottom: 10px;
+}
+.right_part .about_job{
+    margin-bottom: 10px;
+}
+.company_location_nam{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.working_shift{
+ margin-left: 5px;
+ 
+   
+}
+.company_skill{
+    display: flex;
+    gap: 10px;
+    font-style: italic;
+}
+
+.working_shift span{
+    margin-right: 5px;
+    background: gray;
+    padding: 5px;
+    color: #fff;
+    font-size: large;
+    border-radius: 5px;
+    font-style: italic;
+}
+
+.btn_row{
+    margin-top: 25px;
+}
+
+.btn_row button{
+    padding:  10px;
+    outline: none;
+    border-radius: 10px;
+    
+   
+}
+
+.btn_row .btn_apply{
+    background-color: blue;
+    color: #fff;
+    font-size: large;
+    width: 100px;
+   font-style: oblique;
+    
+}
+.btn_apply i{
+    margin-left: 5px;
+    font-size: large;
+    cursor: pointer;
+   
+}
+
+.btn_save{
+     margin-left: 20px;
+     padding: 10px 20px;
+    font-size: large;
+    width: 100px;
+    cursor: pointer;
+    font-style: oblique;
+}
+
+.about_job,.about_company{
+    margin-top: 25px;
+}
+.about_job h2,.about_company h2{
+    margin-bottom: 10px;
+}
+
+.about_job div,.about_company div{
+    font-size: large;
+}
+
+@media screen and (max-width:1000px) {
+    .container{
+        margin:0px 0px;
+    }
+    
+}
+@media screen and (max-width:700px) {
+
+    #left_part_right_job_rol{
+        font-size: medium;
+    }
+    
+}
+@media screen and (max-width:580px) {
+
+   .container{
+    display: flex;
+    flex-direction: column;
+   }
+   .left_part_data{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+   }
+   .right_part{
+    width: 100%;
+   }
+   #left_part_right_job_rol{
+    font-size: large;
+}
+
+}
+
